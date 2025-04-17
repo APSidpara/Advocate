@@ -1,0 +1,117 @@
+/* Body background image */
+body {
+  background-image: url("batexure.jpg");
+}
+
+/* About Us */
+.adv {
+  background-image: url("advo.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+/* Contact Us */
+.loc {
+  background-image: url("city.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Personal Information */
+.msy {
+  margin-top: 9rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+/* Personal Information -> ProfilenPhoto */
+.imp {
+  padding-left: 7rem !important;
+}
+
+/* Personal Information -> Personal Description */
+.smc {
+  padding-right: 1rem !important;
+}
+
+/* Personal Information -> Personal Description */
+.lvpp {
+  margin-top: 2rem !important;
+}
+
+/* Personal Information -> Personal Description */
+.lvp {
+  margin-top: 3rem !important;
+  margin-bottom: 0rem !important;
+}
+
+/* Personal Information -> Personal Description */
+.man {
+  padding: 3rem !important;
+}
+
+/* About US, Practice area, Certificate, FAQ's, Blog, Contact Us */
+.paew {
+  margin-top: 8% !important;
+  margin-bottom: 0% !important;
+}
+
+/* About US, Practice area, Blog */
+.abt {
+  margin-top: 7% !important;
+}
+
+/* About US */
+.abs {
+  margin-left: 4% !important;
+}
+
+/* Contact Us -> Location */
+.min-h-100 {
+  min-height: 100%;
+}
+
+/* About US, Practice area, Certificate, FAQ's, Blog, Contact Us */
+.underline-space {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+/* .dropdown-toggle::after {
+    display: none !important;
+} */
+
+/* Footer -> Copyright */
+.copy-back {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  height: 50px;
+}
+
+/* Practice area */
+.font-size {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--bs-accordion-active-color);
+}
+
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: white;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  color: black;
+  background-color: white;
+  border-color: white;
+  outline: 0;
+  box-shadow: none;
+}
